@@ -5,5 +5,5 @@ build:
     - docker push ragesh/busybox:pipeline
 integrations:
   hub:
-    - integrationName: ragesh-docker
+    - integrationName: ragesh_docker
       type: docker
