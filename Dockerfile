@@ -1,3 +1,3 @@
 FROM busybox
 MAINTAINER ragesh@rageshkrishna.com
-ADD .
+ADD . /foo
