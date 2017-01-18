@@ -1,0 +1,5 @@
+language: none
+build:
+  ci:
+    - docker build -t=ragesh/busybox:pipeline .
+    - docker push ragesh/busybox:pipeline
