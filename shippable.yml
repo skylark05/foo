@@ -3,7 +3,7 @@ build:
   ci:
     - docker build -t=ragesh/busybox:pipeline .
     - docker push ragesh/busybox:pipeline
-integrations:
-  hub:
-    - integrationName: ragesh_docker
-      type: docker
+#integrations:
+#  hub:
+#    - integrationName: ragesh_docker
+#      type: docker
